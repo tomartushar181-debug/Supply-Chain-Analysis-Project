@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project analyzes a global e-commerce supply chain dataset to understand delivery performance, identify reasons for late deliveries, measure their impact on profit, and predict whether an order is likely to be delayed using Machine Learning.
+This project analyzes a global e-commerce supply chain dataset to understand delivery performance, identify reasons for late deliveries, and measure their impact on business profitability.
 
-The analysis was completed using Python for data cleaning, exploratory data analysis (EDA), visualization, and predictive modeling.
+The analysis was completed using Python for data cleaning, exploratory data analysis (EDA), visualization, and business insight generation.
 
 ---
 
@@ -18,7 +18,7 @@ The main goals of this project are to:
 * Identify the main reasons for delivery delays
 * Measure the financial impact of delays
 * Find operational bottlenecks
-* Build a machine learning model to predict delayed orders
+* Provide data-driven business recommendations
 
 ---
 
@@ -39,7 +39,6 @@ The dataset contains order details, shipping information, customer information, 
 * NumPy
 * Matplotlib
 * Seaborn
-* Scikit-learn
 * Jupyter Notebook
 
 ---
@@ -54,8 +53,7 @@ The dataset contains order details, shipping information, customer information, 
 6. Delay Analysis
 7. Bottleneck Detection
 8. Time-Based Analysis
-9. Machine Learning Model
-10. Business Recommendations
+9. Business Recommendations
 
 ---
 
@@ -84,23 +82,12 @@ The project includes the following KPIs:
 
 ---
 
-## Machine Learning
-
-A Random Forest Classification model was used to predict delayed orders.
-
-**Model Accuracy:** **74%**
-
-The model helps identify orders that are at high risk of being delivered late before shipment.
-
----
-
 ## Business Recommendations
 
 * Improve shipping operations.
 * Review shipping methods with high delay rates.
 * Reduce payment processing delays.
 * Improve planning during high-demand periods.
-* Use the machine learning model to identify high-risk orders.
 * Monitor delivery performance regularly using dashboards.
 
 ---
@@ -119,7 +106,7 @@ This analysis helps businesses:
 
 ## Repository Structure
 
-```
+```text
 Supply-Chain-Analysis/
 │
 ├── Dataset/
@@ -135,4 +122,4 @@ Supply-Chain-Analysis/
 
 **Tushar Tomar**
 
-Aspiring Data Analyst skilled in Python, SQL, Power BI, Excel, Pandas, NumPy, Data Visualization, and Machine Learning.
+Aspiring Data Analyst skilled in Python, SQL, Power BI, Excel, Pandas, NumPy, and Data Visualization.
